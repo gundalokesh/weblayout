@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header,.footer{
+    background-color:rgb(164, 0, 27);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    clear: both;
+}
+.navbar{
+    background-color:rgb(236, 127, 145);
+    display: flex;
+    padding: 8px ;
+
+   
+}
+.navbar a{
+    padding: 2px 50px;
+    text-decoration: none;
+}
+
+.coloum{
+    
+    display: table; 
+    float: left; 
+    width: 33%;
+    padding: 15px;
+    
+   
+   
+    
+}
+h2{
+    
+    color: rgb(91, 29, 29);
+    border-bottom-style:double;
+    margin-bottom: 20px;
+}
+@media(max-width:600px){
+  
+   .coloum{
+    
+   width:100%
+   }
+}
+
